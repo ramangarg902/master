@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * @author RamanG
  *
  */
+ // https://github.com/Ardesco/Selenium-Maven-Template
 
 /*	<dependency>
     	<groupId>org.seleniumhq.selenium</groupId>
