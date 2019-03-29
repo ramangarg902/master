@@ -1,0 +1,135 @@
+ .header {
+            padding: 15px;
+            background-color: darkslategray;
+            width: 100%;
+            float: left;
+        }
+
+        .header a {
+            float: right;
+            color: white;
+        }
+
+        .search-container {
+            float: right;
+            margin: 15px 0;
+        }
+
+        .table-custm thead tr th {
+            background-color: lightgrey;
+        }
+
+        .table-custm thead tr th:nth-child(3) {
+            width: 40%
+        }
+
+        .table-custm tbody tr td:nth-child(3) {
+            text-align: center;
+        }
+
+        .butn-view {
+            margin-right: 20px;
+        }
+
+        .breadCrumb-style {
+            margin-top: 25px;
+        }
+
+        #breadcrumbs-one {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        #breadcrumbs-one li {
+            float: left;
+        }
+
+        #breadcrumbs-one a {
+            padding: .7em 1em .7em 2em;
+            float: left;
+            text-decoration: none;
+            color: #444;
+            position: relative;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+            background-color: #ffffff;
+            font-size: 16px;
+            border: 1px solid #000;
+        }
+
+        #breadcrumbs-one li:first-child a {
+            padding-left: 1em;
+            border-radius: 5px 0 0 5px;
+        }
+
+        #breadcrumbs-one a::after,
+        #breadcrumbs-one a::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            margin-top: -1.5em;
+            border-top: 1.5em solid transparent;
+            border-bottom: 1.5em solid transparent;
+            border-left: 1em solid;
+            right: -1em;
+        }
+
+        #breadcrumbs-one a::after {
+            z-index: 2;
+            border-left-color: #fff;
+        }
+
+        #breadcrumbs-one a::before {
+            border-left-color: #000;
+            right: -1.1em;
+            z-index: 1;
+        }
+
+        #breadcrumbs-one {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .menu-custm {
+            padding: 0
+        }
+
+        .menu-custm a {
+            background-color: #ffffff;
+            color: black;
+            display: block;
+            padding: 25px 10px 25px 5px;
+            border: 1px solid;
+            text-decoration: none;
+        }
+
+        .menu-custm a:hover {
+            background-color: #ccc;
+        }
+
+        .menu-custm a.active {
+            background-color: #eee;
+            color: #000000;
+        }
+
+        .delete {
+            background-color: #4596f3;
+            border: 0px;
+            color: #fff;
+        }
+
+        .cancel {
+            background-color: #fff;
+            color: #000;
+            border: 0px;
+        }
+
+        .modal-header,
+        .modal-footer {
+            border: 0px;
+        }
+
+        .active::after {
+            content: ' \2023';
+            float: right;
+        }

@@ -1,0 +1,197 @@
+        .header {
+            padding: 15px;
+            background-color: darkslategray;
+            width: 100%;
+            float: left;
+        }
+
+        .header a {
+            float: right;
+            color: white;
+        }
+
+        .search-container {
+            float: right;
+            margin: 15px 0;
+        }
+        .table-custm{
+            margin-bottom: 20px !important;
+        }
+        .table-custm thead tr th {
+            background-color: lightgrey;
+        }
+
+        .table-custm thead tr th:nth-child(3) {
+            width: 40%
+        }
+
+        .table-custm tbody tr td:nth-child(3) {
+            text-align: center;
+        }
+        .table-custm tbody tr td{
+            vertical-align: unset !important;
+        }
+
+        .butn-view {
+            margin-right: 20px;
+        }
+
+        .breadCrumb-style {
+            margin-top: 25px;
+        }
+
+        #breadcrumbs-one {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        #breadcrumbs-one li {
+            float: left;
+        }
+
+        #breadcrumbs-one a {
+            padding: .7em 1em .7em 2em;
+            float: left;
+            text-decoration: none;
+            color: #444;
+            position: relative;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+            background-color: #ffffff;
+            font-size: 16px;
+            border: 1px solid #000;
+        }
+
+        #breadcrumbs-one li:first-child a {
+            padding-left: 1em;
+            border-radius: 5px 0 0 5px;
+        }
+
+        #breadcrumbs-one a::after,
+        #breadcrumbs-one a::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            margin-top: -1.5em;
+            border-top: 1.5em solid transparent;
+            border-bottom: 1.5em solid transparent;
+            border-left: 1em solid;
+            right: -1em;
+        }
+
+        #breadcrumbs-one a::after {
+            z-index: 2;
+            border-left-color: #fff;
+        }
+
+        #breadcrumbs-one a::before {
+            border-left-color: #000;
+            right: -1.1em;
+            z-index: 1;
+        }
+
+        #breadcrumbs-one {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .menu-custm {
+            padding: 0 !important;
+        }
+
+        .menu-custm a {
+            background-color: #ffffff;
+            color: black;
+            display: block;
+            padding: 25px 10px 25px 5px;
+            border: 1px solid;
+            text-decoration: none;
+        }
+
+        .menu-custm a:hover {
+            background-color: #ccc;
+        }
+
+        .menu-custm a.active {
+            background-color: #eee;
+            color: #000000;
+        }
+
+        .delete {
+            background-color: #4596f3;
+            border: 0px;
+            color: #fff;
+        }
+
+        .cancel {
+            background-color: #fff;
+            color: #000;
+            border: 0px;
+        }
+
+        .modal-header,
+        .modal-footer {
+            border: 0px !important; 
+        }
+
+        .active::after {
+            content: ' \2023';
+            float: right;
+        }
+
+        #edit-modal {
+            text-align: center;
+            padding: 0!important;
+          }
+          
+        #edit-modal:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            margin-right: -4px;
+          }
+          
+          #edit-modal .modal-dialog {
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+          }
+
+          .dataTables_wrapper{
+              margin-top: 50px;
+          }
+          .dataTables_length , .dataTables_filter{
+              margin-bottom: 20px;
+          }
+          .input-modal{
+            width: 100%;
+            margin: 6px 0;
+            border: 1px solid #ddd;
+            padding: 12px;
+          }
+          .drop-butn{
+            width: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 20px;
+            text-align: left;
+            border: 1px solid #ddd;
+          }
+          .drop-cust{
+              margin-top: 6px;
+          }
+          .drop-cust ul{
+              width: 100%;
+          }
+          .drop-cust span{
+            float: right;
+            margin-top: 8px;
+            border-top: 6px dashed;
+            border-right:6px solid transparent;
+            border-left:6px solid transparent;
+          }
+          
+          .Test-java{
+              margin-top: 30px;
+          }
